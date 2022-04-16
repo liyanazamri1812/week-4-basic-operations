@@ -10,6 +10,16 @@
 //main function section 
 int main(){
     //write here your program
+    
+    int LA[]={2,4,6,8,10,12,14,16,18,20};
+    int N=10;
+    int i;
+    
+    for(i=0; i<N; i++)
+    {
+        printf("LA[%d] = %d\n", i, LA[i]);
+    }   
+
 
 
     return 0;
